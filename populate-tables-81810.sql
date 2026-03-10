@@ -1,38 +1,39 @@
 USE INVESTTRACK;
 
-INSERT INTO SECTORES (NOMBRE_SECTOR) VALUES ('Tecnología'), ('Financiero'), ('Energía'), ('Consumo'), ('Salud'), ('Industrial'), ('Materiales'), ('Cripto');
+INSERT INTO SECTORES (NOMBRE_SECTOR) VALUES ('Tecnologia'), ('Financiero'), ('Energia'), ('Consumo'), ('Salud'), ('Industrial'), ('Materiales'), ('Cripto');
 
-INSERT INTO MONEDA (CODIGO, DESCRIPCION) VALUES ('ARS', 'Peso Argentino'), ('USD', 'Dólar Estadounidense'), ('USDT', 'Tether'), ('BTC', 'Bitcoin'), ('ETH', 'Ethereum');
+INSERT INTO MONEDA (CODIGO, DESCRIPCION) VALUES ('ARS', 'Peso Argentino'), ('USD', 'Dolar Estadounidense'), ('USDT', 'Tether'), ('BTC', 'Bitcoin'), ('ETH', 'Ethereum');
 
 INSERT INTO BROKERS (NOMBRE_BROKER, COMISION_ESTANDAR) VALUES ('IOL Invertir Online', 0.50), ('Bull Market', 0.60), ('PPI Personal', 0.40), ('Binance', 0.10), ('Lemon Cash', 0.50);
 
-INSERT INTO USUARIOS (NOMBRE_COMPLETO_USUARIO, EMAIL) VALUES ('Martín Rumeau', 'martin@email.com'), ('Ana García', 'ana.g@email.com'), ('Juan Pérez', 'jperez@email.com'), 
-('Lucía Fernández', 'lucia.f@tech.com'), ('Carlos Rossi', 'crossi@market.it'), ('Elena Martínez', 'emartinez@invest.com'), ('Santiago Gómez', 'sgomez@broker.ar'), 
-('Valentina López', 'vlopez@crypto.com'), ('Ricardo Fort', 'comandante@maiameeee.com'), ('Mirtha Legrand', 'mesaza@eltrece.com'), ('Lionel Messi', 'leo.messi@intermiami.com'), 
-('Julián Álvarez', 'spider@city.com'), ('Franco Colapinto', 'franco.f1@williams.com'), ('Bizarrap Gonzalo', 'biza@musicsessions.com'), ('Mariana Enríquez', 'm.enriquez@terror.ar'),
-('Ricardo Darín', 'r.darin@bombita.com'), ('Tini Stoessel', 'tini.tini@triple-t.com'), ('Facundo Campazzo', 'facu.c@nba.net'), ('Marta Minujín', 'marta.m@arte.net'),
-('Gabriel Rolón', 'g.rolon@psico.com.ar'), ('Nathy Peluso', 'nathy@calambre.com.es'), ('Gustavo Santaolalla', 'g.santa@oscars.com'), ('Marcos Galperín', 'marcos.g@meli.com'),
-('Luis Scola', 'luisscola@capitan.com.ar'), ('Lali Espósito', 'lali@disciplina.com'), ('Mauro Lombardi', 'duki@ssj.com.ar'), ('Valentín Oliva', 'wos@canguro.com.ar'),
+INSERT INTO USUARIOS (NOMBRE_COMPLETO_USUARIO, EMAIL) VALUES 
+('Martin Rumeau', 'martin@email.com'), ('Ana Garcia', 'ana.g@email.com'), ('Juan Perez', 'jperez@email.com'), 
+('Lucia Fernandez', 'lucia.f@tech.com'), ('Carlos Rossi', 'crossi@market.it'), ('Elena Martinez', 'emartinez@invest.com'), ('Santiago Gomez', 'sgomez@broker.ar'), 
+('Valentina Lopez', 'vlopez@crypto.com'), ('Ricardo Fort', 'comandante@maiameeee.com'), ('Mirtha Legrand', 'mesaza@eltrece.com'), ('Lionel Messi', 'leo.messi@intermiami.com'), 
+('Julian Alvarez', 'spider@city.com'), ('Franco Colapinto', 'franco.f1@williams.com'), ('Bizarrap Gonzalo', 'biza@musicsessions.com'), ('Mariana Enriquez', 'm.enriquez@terror.ar'),
+('Ricardo Darin', 'r.darin@bombita.com'), ('Tini Stoessel', 'tini.tini@triple-t.com'), ('Facundo Campazzo', 'facu.c@nba.net'), ('Marta Minujin', 'marta.m@arte.net'),
+('Gabriel Rolon', 'g.rolon@psico.com.ar'), ('Nathy Peluso', 'nathy@calambre.com.es'), ('Gustavo Santaolalla', 'g.santa@oscars.com'), ('Marcos Galperin', 'marcos.g@meli.com'),
+('Luis Scola', 'luisscola@capitan.com.ar'), ('Lali Esposito', 'lali@disciplina.com'), ('Mauro Lombardi', 'duki@ssj.com.ar'), ('Valentin Oliva', 'wos@canguro.com.ar'),
 ('Mateo Peligro', 'trueno@laboca.com.ar'), ('Nicki Nicole', 'nicki.n@dispara.com'), ('Ca7riel Catriel', 'ca7riel@tinydesk.com.ar'), ('Paco Amoroso', 'paco.a@tinydesk.com.ar'),
 ('Dillom Dylan', 'dillom@bohemian.com'), ('Milo J', 'milo.j@moron.com.ar'), ('Tiago PZK', 'tiago.pzk@gotti.com.ar'), ('Maria Becerra', 'la.nena@argentina.com.ar'),
-('Emilia Mernes', 'emilia@exclusive.com'), ('Rusherking Thomaz', 'rusher@losdelespacio.com'), ('Emanuel Ginóbili', 'manu.20@spurs.com'), ('Juan Martín del Potro', 'delpo@tandil.com'),
-('Luciana Aymar', 'lucha.aymar@lasleonas.com'), ('Sergio Agüero', 'kun.aguero@kru.com'), ('Ángel Di María', 'fideo.dimaria@carc.com'),('Emiliano Martínez', 'dibu.martinez@villa.uk'),
+('Emilia Mernes', 'emilia@exclusive.com'), ('Rusherking Thomaz', 'rusher@losdelespacio.com'), ('Emanuel Ginobili', 'manu.20@spurs.com'), ('Juan Martin del Potro', 'delpo@tandil.com'),
+('Luciana Aymar', 'lucha.aymar@lasleonas.com'), ('Sergio Aguero', 'kun.aguero@kru.com'), ('Angel Di Maria', 'fideo.dimaria@carc.com'),('Emiliano Martinez', 'dibu.martinez@villa.uk'),
 ('Gabriela Sabatini', 'gaby.saba@tennis.com'), ('Paula Pareto', 'la.peque@judo.ar'), ('Marcos Maidana', 'chino.maidana@guaymallen.com'), ('Adolfo Cambiaso', 'adolfito@la-dolfina.com'),
 ('Roger Federer', 'roger@alps.ch'), ('Lewis Hamilton', 'lewis.h@ferrari.com'), ('Serena Williams', 'serena@grandslam.com');
 
 INSERT INTO ACTIVOS (TICKER, NOMBRE_ACTIVO, TIPO_ACTIVO, ID_SECTOR) VALUES 
-('AMZN', 'Amazon.com Inc.', 'Acción', 1), ('META', 'Meta Platforms Inc.', 'Acción', 1), ('NFLX', 'Netflix Inc.', 'Acción', 1), ('ADBE', 'Adobe Inc.', 'Acción', 1),
-('CRM', 'Salesforce Inc.', 'Acción', 1), ('INTC', 'Intel Corp.', 'Acción', 1), ('AMD', 'Advanced Micro Devices', 'Acción', 1), ('IBM', 'IBM Corp.', 'Acción', 1),
-('WMT', 'Walmart Inc.', 'Acción', 4), ('PEP', 'PepsiCo Inc.', 'Acción', 4), ('SBUX', 'Starbucks Corp.', 'Acción', 4), ('MCD', 'McDonalds Corp.', 'Acción', 4),
-('PG', 'Procter & Gamble', 'Acción', 4), ('NKE', 'Nike Inc.', 'Acción', 4), ('COST', 'Costco Wholesale', 'Acción', 4), ('VTI', 'Vanguard Total Stock', 'Acción', 1),
-('ARKK', 'ARK Innovation ETF', 'Acción', 1), ('XLF', 'Financial Select Sector', 'Acción', 2), ('XLE', 'Energy Select Sector', 'Acción', 3),
-('EWZ', 'MSCI Brazil ETF', 'Acción', 2), ('SPY', 'SPDR S&P 500 ETF Trust', 'Acción', 1), ('PAM', 'Pampa Energía S.A.', 'Acción', 3), ('EDN', 'Edenor S.A.', 'Acción', 3),
-('BBAR', 'BBVA Argentina', 'Acción', 2), ('SUPV', 'Grupo Supervielle', 'Acción', 2), ('BAC', 'Bank of America', 'Acción', 2), ('GS', 'Goldman Sachs', 'Acción', 2),
-('PYPL', 'PayPal Holdings', 'Acción', 2), ('SQ', 'Block Inc.', 'Acción', 2), ('PBR', 'Petroleo Brasileiro', 'Acción', 3), ('BP', 'BP PLC', 'Acción', 3),
-('CVX', 'Chevron Corp.', 'Acción', 3), ('VALE', 'Vale S.A.', 'Acción', 7), ('GOLD', 'Barrick Gold Corp.', 'Acción', 7), ('FCX', 'Freeport-McMoRan', 'Acción', 7),
-('NEM', 'Newmont Corp.', 'Acción', 7), ('BA', 'Boeing Co.', 'Acción', 6), ('CAT', 'Caterpillar Inc.', 'Acción', 6), ('GE', 'General Electric', 'Acción', 6),
-('MMM', '3M Company', 'Acción', 6), ('HON', 'Honeywell International', 'Acción', 6), ('AE38', 'Bono Arg USD 2038', 'Bono', 2), ('AL35', 'Bono Arg USD 2035', 'Bono', 2),
-('BA37L', 'Bono Prov. Bs As 2037', 'Bono', 2), ('TVPP', 'Cupón PBI Pesos', 'Bono', 2), ('PR13', 'Bono Consolidación 6ta', 'Bono', 2), ('DICP', 'Bono Discount ARS', 'Bono', 2),
+('AMZN', 'Amazon.com Inc.', 'Accion', 1), ('META', 'Meta Platforms Inc.', 'Accion', 1), ('NFLX', 'Netflix Inc.', 'Accion', 1), ('ADBE', 'Adobe Inc.', 'Accion', 1),
+('CRM', 'Salesforce Inc.', 'Accion', 1), ('INTC', 'Intel Corp.', 'Accion', 1), ('AMD', 'Advanced Micro Devices', 'Accion', 1), ('IBM', 'IBM Corp.', 'Accion', 1),
+('WMT', 'Walmart Inc.', 'Accion', 4), ('PEP', 'PepsiCo Inc.', 'Accion', 4), ('SBUX', 'Starbucks Corp.', 'Accion', 4), ('MCD', 'McDonalds Corp.', 'Accion', 4),
+('PG', 'Procter & Gamble', 'Accion', 4), ('NKE', 'Nike Inc.', 'Accion', 4), ('COST', 'Costco Wholesale', 'Accion', 4), ('VTI', 'Vanguard Total Stock', 'Accion', 1),
+('ARKK', 'ARK Innovation ETF', 'Accion', 1), ('XLF', 'Financial Select Sector', 'Accion', 2), ('XLE', 'Energy Select Sector', 'Accion', 3),
+('EWZ', 'MSCI Brazil ETF', 'Accion', 2), ('SPY', 'SPDR S&P 500 ETF Trust', 'Accion', 1), ('PAM', 'Pampa Energia S.A.', 'Accion', 3), ('EDN', 'Edenor S.A.', 'Accion', 3),
+('BBAR', 'BBVA Argentina', 'Accion', 2), ('SUPV', 'Grupo Supervielle', 'Accion', 2), ('BAC', 'Bank of America', 'Accion', 2), ('GS', 'Goldman Sachs', 'Accion', 2),
+('PYPL', 'PayPal Holdings', 'Accion', 2), ('SQ', 'Block Inc.', 'Accion', 2), ('PBR', 'Petroleo Brasileiro', 'Accion', 3), ('BP', 'BP PLC', 'Accion', 3),
+('CVX', 'Chevron Corp.', 'Accion', 3), ('VALE', 'Vale S.A.', 'Accion', 7), ('GOLD', 'Barrick Gold Corp.', 'Accion', 7), ('FCX', 'Freeport-McMoRan', 'Accion', 7),
+('NEM', 'Newmont Corp.', 'Accion', 7), ('BA', 'Boeing Co.', 'Accion', 6), ('CAT', 'Caterpillar Inc.', 'Accion', 6), ('GE', 'General Electric', 'Accion', 6),
+('MMM', '3M Company', 'Accion', 6), ('HON', 'Honeywell International', 'Accion', 6), ('AE38', 'Bono Arg USD 2038', 'Bono', 2), ('AL35', 'Bono Arg USD 2035', 'Bono', 2),
+('BA37L', 'Bono Prov. Bs As 2037', 'Bono', 2), ('TVPP', 'Cupon PBI Pesos', 'Bono', 2), ('PR13', 'Bono Consolidacion 6ta', 'Bono', 2), ('DICP', 'Bono Discount ARS', 'Bono', 2),
 ('CUAP', 'Bono Cuasipar ARS', 'Bono', 2), ('TL26', 'Bono Tesoro ARS 2026', 'Bono', 2), ('TO26', 'Bono Tesoro ARS Tasa Fija', 'Bono', 2), ('GD35', 'Bono Global 2035', 'Bono', 2);
 
 INSERT INTO ORDENES_COMPRA_VENTA (ID_USUARIO, ID_ACTIVO, ID_BROKER, ID_MONEDA, CANTIDAD, PRECIO_UNITARIO, TIPO_OPERACION, COMISION_PAGADA) VALUES
